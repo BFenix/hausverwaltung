@@ -37,7 +37,7 @@ export function SetupWizard() {
     name: "",
     email: "",
     password: "",
-    locale: "de",
+    locale: "uk",
     brandColor: "#4f46e5",
     propertyName: "",
     propertyStreet: "",

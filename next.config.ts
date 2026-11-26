@@ -31,7 +31,7 @@ const nextConfig: NextConfig = {
   // Kommunikationsbereich hieß früher /email (#68); alte Links/Lesezeichen weiterleiten.
   async redirects() {
     return [
-      { source: "/:locale(de|en|pt-BR)/email/:path*", destination: "/:locale/communication/:path*", permanent: true },
+      { source: "/:locale(uk|de|en|pt-BR)/email/:path*", destination: "/:locale/communication/:path*", permanent: true },
       { source: "/email/:path*", destination: "/communication/:path*", permanent: true },
     ];
   },

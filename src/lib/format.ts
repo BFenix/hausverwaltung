@@ -1,7 +1,7 @@
 // UI-Sprache → BCP-47-Locale für Intl. "de"/"en" sind historisch kurz,
 // alle weiteren Sprachen (z. B. "pt-BR") sind bereits vollständige Tags.
 export function intlLocale(locale: string): string {
-  return locale === "de" ? "de-DE" : locale === "en" ? "en-US" : locale;
+  return locale === "de" ? "de-DE" : locale === "en" ? "en-US" : locale === "uk" ? "uk-UA" : locale;
 }
 
 export function money(value: number | string, locale = "de") {
